@@ -1,0 +1,74 @@
+@media screen and (max-width: 912px) {
+    /* áp dụng cho tablet */
+    /* max -> nhỏ hơn được chấp nhập */
+    /* css được ăn khi mà viewport
+     thiết bị nhỏ hơn hoặc bằng 768px */
+
+    .central_container .central_container-header {
+        padding: 63px 64px 0 64px;
+        height: 70vw;
+    }
+
+    .central_container .central_container-header .central_container-header-navbar ul li:nth-child(2),
+    .central_container .central_container-header .central_container-header-navbar ul li:nth-child(3),
+    .central_container .central_container-header .central_container-header-navbar ul li:nth-child(4),
+    .central_container .central_container-header .central_container-header-navbar ul li:nth-child(5),
+    .central_container .central_container-header .central_container-header-navbar ul li:nth-child(6) {
+        display: none;
+    }
+
+    .central_container .central_container-header .central_container-header-navbar div i:nth-child(1),
+    .central_container .central_container-header .central_container-header-navbar div i:nth-child(2) {
+        display: none;
+    }
+
+    .central_container .central_container-header .central_container-header-navbar div i:nth-child(3) {
+        display: block;
+    }
+
+    .central_container .central_container-header .central_container-header-navbar ul li:nth-child(1) img {
+        width: 30vw;
+    }
+
+    .central_container h3 {
+        margin-top: 110px;
+        width: 55%;
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    /* áp dụng cho mobile */
+    /* max -> nhỏ hơn được chấp nhập */
+    /* css được ăn khi mà viewport
+     thiết bị nhỏ hơn hoặc bằng 420px */
+
+    .central_container .central_container-header {
+        height: 120vw;
+    }
+
+    .central_container .central_container-header {
+        padding: 58px 24px 0 24px
+    }
+
+    .central_container h3 {
+        margin-top: 100px;
+        font-size: 7vw;
+        width: 100%;
+        text-align: center;
+        padding: 0 55px;
+    }
+
+    .central_container .central_container-header .central_container-header-trial h4 {
+        font-size: 24px;
+        width: 200px;
+        text-align: center;
+    }
+
+    .central_container .central_container-header .central_container-header-trial p {
+        font-size: 14px;
+        width: 270px;
+    }
+
+}
