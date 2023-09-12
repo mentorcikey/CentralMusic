@@ -52,6 +52,20 @@
         width: 250px;
     }
 
+    /* CSS popular */
+
+    .central_container-popular .central_container-popular-lists {
+        flex-wrap: wrap;
+        gap: 34px 0px;
+    }
+
+    .central_container-popular .central_container-popular-lists .central_container-popular-item {
+        width: 49%;
+    }
+
+    .central_container-popular .central_container-popular-line {
+        width: 250px;
+    }
 
 }
 
@@ -106,4 +120,17 @@
         width: 70px;
     }
 
+    /* CSS popular */
+
+    .central_container-popular .central_container-popular-lists .central_container-popular-item {
+        width: 100%;
+    }
+
+    .central_container-popular .central_container-popular-title {
+        font-size: 24px;
+    }
+
+    .central_container-popular .central_container-popular-line {
+        width: 70px;
+    }
 }
