@@ -67,6 +67,30 @@
         width: 250px;
     }
 
+    /* CSS gear */
+    .central_container-gear {
+        padding-top: 80px;
+    }
+
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-top .central_container-gear-listCard-top-child {
+        height: 600px;
+    }
+
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-top .central_container-gear-listCard-top-child img {
+        height: 487px;
+    }
+
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-bottom {
+        margin-top: 30px;
+    }
+
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-bottom .central_container-gear-listCard-bottom-child {
+        width: 49%;
+    }
+
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-bottom .central_container-gear-listCard-bottom-child:nth-child(1) {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -133,4 +157,34 @@
     .central_container-popular .central_container-popular-line {
         width: 70px;
     }
+
+    /* CSS popular */
+
+    .central_container-gear .central_container-gear-title {
+        margin-bottom: 0;
+    }
+
+
+    .central_container-gear .central_container-gear-listCard {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-top,
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-bottom {
+        flex-direction: column;
+    }
+
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-top .central_container-gear-listCard-top-child,
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-bottom .central_container-gear-listCard-bottom-child {
+        width: 100%;
+        height: 450px;
+        margin-top: 25px;
+    }
+
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-top .central_container-gear-listCard-top-child img,
+    .central_container-gear .central_container-gear-listCard .central_container-gear-listCard-bottom .central_container-gear-listCard-bottom-child img {
+        height: 331px;
+    }
+
 }
